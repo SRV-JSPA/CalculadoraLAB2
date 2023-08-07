@@ -46,4 +46,15 @@ class MainActivity : AppCompatActivity() {
     fun evaluar (str: String):String?{
         return null
     }
+
+    fun calculadora(a: Int, b: Int, operador: Char): Int {
+        return when (operador) {
+            '+' -> a + b
+            '-' -> a - b
+            '*' -> a * b
+            '/' -> a / b
+            '%' -> a % b
+            else -> throw IllegalArgumentException("El operador/signo no es válido ")
+        }
+    }
 }
