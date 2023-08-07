@@ -1,3 +1,12 @@
+//Universidad del Valle de Guatemala
+//Programación de Plataformas Móviles
+//Profesor Moisés Alonso
+//Sección 10
+//Laboratorio #2
+//Santiago Pereira 22318
+//Rodrigo Marchena 22398
+//Nancy Mazariegos 22513
+
 package com.example.calculadora
 
 import androidx.appcompat.app.AppCompatActivity
