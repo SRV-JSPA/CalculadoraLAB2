@@ -18,6 +18,23 @@ class MainActivity : AppCompatActivity() {
        var botton=view as Button
        var textobutton = botton.text.toString()
        var concatenar=resultado?.text.toString()+textobutton
+        var imprimir = limpiarCeros(concatenar)
+        if(textobutton == "="){
+            var resp = 0.0
 
+        } else if(textobutton == "C"){
+
+        }
+    }
+    fun limpiarCeros (str: String ): String{
+        var i = 0
+        while(i<str.length && str[i]=='0')i++
+        var bs = StringBuffer(str)
+        bs.replace(0,i,"")
+        return bs.toString()
+    }
+
+    fun evaluar (str: String):String?{
+        return null
     }
 }
