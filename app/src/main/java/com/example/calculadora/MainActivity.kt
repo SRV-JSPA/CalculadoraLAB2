@@ -3,6 +3,7 @@ package com.example.calculadora
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     var resultado:TextView?=null
@@ -12,5 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         resultado=findViewById(R.id.resultado)
     }
-    fun
+    fun calcular (){
+
+    }
 }
