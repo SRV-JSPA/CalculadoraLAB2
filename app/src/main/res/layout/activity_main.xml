@@ -7,9 +7,8 @@
     tools:context=".MainActivity">
 
     <TableLayout
-        android:layout_width="328dp"
-        android:layout_height="471dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="378dp"
+        android:layout_height="531dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -234,12 +233,26 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="calcular"
-                android:text="="
-                android:textSize="36sp" />
+                android:text="Ans"
+                android:textSize="34sp" />
         </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
 
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="calcular"
+                android:text="="
+                android:textSize="36sp" />
+
+
+        </TableRow>
 
 
     </TableLayout>
