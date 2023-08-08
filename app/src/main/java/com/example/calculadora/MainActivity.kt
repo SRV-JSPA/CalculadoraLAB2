@@ -15,6 +15,7 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Button
 
+
 class MainActivity : AppCompatActivity() {
     var resultado:TextView?=null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,6 +55,7 @@ class MainActivity : AppCompatActivity() {
             '*' -> a * b
             '/' -> a / b
             '%' -> a % b
+            '^' -> a*a
             else -> throw IllegalArgumentException("El operador/signo no es válido ")
         }
     }
