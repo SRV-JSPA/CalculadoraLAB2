@@ -58,5 +58,10 @@ class MainActivity : AppCompatActivity() {
             '^' -> a*a
             else -> throw IllegalArgumentException("El operador/signo no es válido ")
         }
+
+        var num1:Button = findViewById(R.id.num1)
+
+
+
     }
 }
