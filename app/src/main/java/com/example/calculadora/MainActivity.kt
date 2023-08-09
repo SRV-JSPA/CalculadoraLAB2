@@ -86,6 +86,70 @@ class MainActivity : AppCompatActivity() {
         num1.setOnClickListener(){
             calcular(num1)
         }
+        num2.setOnClickListener(){
+            calcular(num2)
+        }
+        num3.setOnClickListener(){
+            calcular(num3)
+        }
+        num4.setOnClickListener(){
+            calcular(num4)
+        }
+        num5.setOnClickListener(){
+            calcular(num5)
+        }
+        num6.setOnClickListener(){
+            calcular(num6)
+        }
+        num7.setOnClickListener(){
+            calcular(num7)
+        }
+        num8.setOnClickListener(){
+            calcular(num8)
+        }
+        num9.setOnClickListener(){
+            calcular(num9)
+        }
+        suma.setOnClickListener(){
+            calcular(suma)
+        }
+        num0.setOnClickListener(){
+            calcular(num0)
+        }
+        resta.setOnClickListener(){
+            calcular(resta)
+        }
+        multiplicacion.setOnClickListener(){
+            calcular(multiplicacion)
+        }
+        division.setOnClickListener(){
+            calcular(division)
+        }
+        modulo.setOnClickListener(){
+            calcular(modulo)
+        }
+        potencia.setOnClickListener(){
+            calcular(potencia)
+        }
+        limpiar.setOnClickListener(){
+            calcular(limpiar)
+        }
+        back.setOnClickListener(){
+            calcular(back)
+        }
+        parentesisA.setOnClickListener(){
+            calcular(parentesisA)
+        }
+        parentesisB.setOnClickListener(){
+            calcular(parentesisB)
+        }
+        ans.setOnClickListener(){
+            calcular(ans)
+        }
+        igual.setOnClickListener(){
+            calcular(igual)
+        }
+
 
     }
 }
