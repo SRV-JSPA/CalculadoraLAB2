@@ -114,7 +114,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/suma"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -123,7 +123,7 @@
                 android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/num0"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -132,7 +132,7 @@
                 android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/resta"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -146,7 +146,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/multiplicacion"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -155,7 +155,7 @@
                 android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/division"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -164,7 +164,7 @@
                 android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/modulo"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -178,7 +178,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/potencia"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -187,7 +187,7 @@
                 android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button18"
+                android:id="@+id/limpiar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -196,7 +196,7 @@
                 android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/back"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -210,7 +210,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button20"
+                android:id="@+id/parentesisA"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -219,7 +219,7 @@
                 android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button21"
+                android:id="@+id/parentesisB"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -228,7 +228,7 @@
                 android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button22"
+                android:id="@+id/ans"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -243,7 +243,7 @@
 
 
             <Button
-                android:id="@+id/button23"
+                android:id="@+id/igual"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

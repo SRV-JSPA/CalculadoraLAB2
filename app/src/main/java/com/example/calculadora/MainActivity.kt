@@ -60,6 +60,28 @@ class MainActivity : AppCompatActivity() {
         }
 
         var num1:Button = findViewById(R.id.num1)
+        var num2:Button = findViewById(R.id.num2)
+        var num3:Button = findViewById(R.id.num3)
+        var num4:Button = findViewById(R.id.num4)
+        var num5:Button = findViewById(R.id.num5)
+        var num6:Button = findViewById(R.id.num6)
+        var num7:Button = findViewById(R.id.num7)
+        var num8:Button = findViewById(R.id.num8)
+        var num9:Button = findViewById(R.id.num9)
+        var suma:Button = findViewById(R.id.suma)
+        var num0:Button = findViewById(R.id.num0)
+        var resta:Button = findViewById(R.id.resta)
+        var multiplicacion:Button = findViewById(R.id.multiplicacion)
+        var division:Button = findViewById(R.id.division)
+        var modulo:Button = findViewById(R.id.modulo)
+        var potencia:Button = findViewById(R.id.potencia)
+        var limpiar:Button = findViewById(R.id.limpiar)
+        var back:Button = findViewById(R.id.back)
+        var parentesisA:Button = findViewById(R.id.parentesisA)
+        var parentesisB:Button = findViewById(R.id.parentesisB)
+        var ans:Button = findViewById(R.id.ans)
+        var igual:Button = findViewById(R.id.igual)
+
 
 
 
