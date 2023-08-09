@@ -83,7 +83,9 @@ class MainActivity : AppCompatActivity() {
         var igual:Button = findViewById(R.id.igual)
 
 
-
+        num1.setOnClickListener(){
+            calcular(num1)
+        }
 
     }
 }
