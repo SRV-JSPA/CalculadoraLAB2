@@ -44,6 +44,10 @@ class MainActivity : AppCompatActivity() {
         var parentesisA: Button = findViewById(R.id.parentesisA)
         var parentesisB: Button = findViewById(R.id.parentesisB)
         var igual: Button = findViewById(R.id.igual)
+        var ans: Button = findViewById(R.id.ans)
+        var c :Button = findViewById(R.id.limpiar)
+        var bSpace:Button = findViewById(R.id.back)
+
         num1.setOnClickListener() {
             calcular(num1)
         }
@@ -103,6 +107,26 @@ class MainActivity : AppCompatActivity() {
             var numero =  evaluar(textView.text as String)
             textView.text = "$numero"
         }
+
+        ans.setOnClickListener(){
+            var variable = evaluar(textView.text as String)
+            textView.text = "$variable"
+        }
+
+        c.setOnClickListener(){
+            textView.text = ""
+        }
+
+        bSpace.setOnClickListener(){
+            val textoActual = textView.text.toString()
+
+            if (textoActual.isNotEmpty()) {
+                val nuevoTexto = textoActual.substring(0, textoActual.length - 1) + " "
+                textView.text = nuevoTexto
+            }
+        }
+
+
 
 
 
