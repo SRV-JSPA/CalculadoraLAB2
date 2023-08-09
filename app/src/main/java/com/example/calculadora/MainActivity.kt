@@ -121,12 +121,13 @@ class MainActivity : AppCompatActivity() {
             var textoFinal = "$textoActual $texto"
             textView.text = textoFinal
         }
-        //var concatenar = resultado?.text.toString() + textobutton
+
 
 
     }
 
     fun evaluar(str: String): Double {
+        //Codigo basado en tareas pasadas de estructuras de datos y ChatGPT
         val expresion = str.split(" ").filter { it.isNotEmpty() }
         val numeros = Stack<Double>()
         val operadores = Stack<String>()
@@ -184,6 +185,6 @@ class MainActivity : AppCompatActivity() {
                 else -> throw IllegalArgumentException("El operador/signo no es válido ")
             }
 
-           
+
     }
 }
