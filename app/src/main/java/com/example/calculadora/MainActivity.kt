@@ -109,8 +109,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         ans.setOnClickListener(){
-            var variable = evaluar(textView.text as String)
-            textView.text = "$variable"
+            var numero =  evaluar(textView.text as String)
+            val currentText = textView.text.toString()
+            val newText = if (currentText.isNotEmpty()) "$currentText $numero" else numero.toString()
+            textView.text = newText
+            calcular(ans)
         }
 
         c.setOnClickListener(){
